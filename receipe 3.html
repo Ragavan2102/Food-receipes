@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Risotto ai Funghi - Recipe Website</title>
+  <style>
+    /* General styles */
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+
+    header {
+      text-align: center;
+      padding: 20px 0;
+    }
+
+    main {
+      padding: 0 20px;
+    }
+
+    .recipe-details {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    .recipe {
+      text-align: left;
+      margin-bottom: 30px;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      background-color: #fff;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      border-radius: 10px;
+      margin-bottom: 15px;
+    }
+
+    h1 {
+      font-size: 32px;
+      margin-bottom: 10px;
+    }
+
+    h2 {
+      font-size: 24px;
+      margin-bottom: 15px;
+    }
+
+    h3 {
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+
+    ul,
+    ol {
+      margin-bottom: 20px;
+    }
+
+    ul li,
+    ol li {
+      margin-bottom: 5px;
+    }
+
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    textarea {
+      width: calc(100% - 40px);
+      max-width: 100%;
+      height: 100px;
+      margin-bottom: 10px;
+      padding: 10px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+
+    button {
+      padding: 10px 20px;
+      border: none;
+      background-color: #ff5733;
+      color: #fff;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #e04e2f;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Risotto ai Funghi</h1>
+    <p>A delicious Mushroom Risotto</p>
+  </header>
+
+  <main>
+    <section class="recipe-details">
+      <h2>Recipe Details</h2>
+      <div class="recipe">
+        <img src="risotto_funghi.jpeg" alt="Risotto ai Funghi">
+        <h3>Ingredients:</h3>
+        <ul>
+          <li>300g Arborio rice</li>
+          <li>500g mixed mushrooms (porcini, cremini, shiitake), sliced</li>
+          <li>1 onion, finely chopped</li>
+          <li>2 cloves garlic, minced</li>
+          <li>1 liter vegetable or chicken broth, heated</li>
+          <li>120ml dry white wine</li>
+          <li>50g grated Parmigiano-Reggiano cheese</li>
+          <li>Fresh parsley, chopped</li>
+          <li>Olive oil</li>
+          <li>Salt and pepper to taste</li>
+        </ul>
+        <h3>Instructions:</h3>
+        <ol>
+          <li>In a pan, heat olive oil and sauté onions until translucent. Add garlic and cook for a minute.</li>
+          <li>Add rice and stir until it's well-coated with oil. Pour in wine and cook until it evaporates.</li>
+          <li>Add a ladleful of hot broth to the rice and stir frequently. Continue adding broth gradually as it gets absorbed by the rice. Cook for about 18-20 minutes until the rice is al dente.</li>
+          <li>In another pan, sauté the mushrooms until golden. Season with salt and pepper.</li>
+          <li>Stir in the cooked mushrooms and Parmigiano-Reggiano into the risotto. Adjust seasoning if needed.</li>
+          <li>Garnish with fresh parsley before serving.</li>
+        </ol>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Contact us for feedback and questions about this recipe</p>
+    <form action="contact.php" method="post">
+      <textarea name="message" placeholder="Leave your feedback or ask a question"></textarea>
+      <button type="submit">Submit</button>
+    </form>
+  </footer>
+</body>
+
+</html>

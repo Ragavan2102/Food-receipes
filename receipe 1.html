@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Pasta Carbonara - Recipe Website</title>
+  <style>
+    /* General styles */
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+
+    header {
+      text-align: center;
+      padding: 20px 0;
+    }
+
+    main {
+      padding: 0 20px;
+    }
+
+    .recipe-details {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    .recipe {
+      text-align: left;
+      margin-bottom: 30px;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      background-color: #fff;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      border-radius: 10px;
+      margin-bottom: 15px;
+    }
+
+    h1 {
+      font-size: 32px;
+      margin-bottom: 10px;
+    }
+
+    h2 {
+      font-size: 24px;
+      margin-bottom: 15px;
+    }
+
+    h3 {
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+
+    ul,
+    ol {
+      margin-bottom: 20px;
+    }
+
+    ul li,
+    ol li {
+      margin-bottom: 5px;
+    }
+
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    textarea {
+      width: calc(100% - 40px);
+      max-width: 100%;
+      height: 100px;
+      margin-bottom: 10px;
+      padding: 10px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+
+    button {
+      padding: 10px 20px;
+      border: none;
+      background-color: #ff5733;
+      color: #fff;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #e04e2f;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Pasta Carbonara</h1>
+    <p>A classic Italian pasta dish</p>
+  </header>
+
+  <main>
+    <section class="recipe-details">
+      <h2>Recipe Details</h2>
+      <div class="recipe">
+        <img src="pasta_carbonara.jpg" alt="Pasta Carbonara">
+        <h3>Ingredients:</h3>
+        <ul>
+          <li>350g spaghetti</li>
+          <li>150g guanciale or pancetta, diced</li>
+          <li>3 large eggs</li>
+          <li>75g grated Pecorino Romano cheese</li>
+          <li>50g grated Parmigiano-Reggiano cheese</li>
+          <li>Black pepper, freshly ground</li>
+        </ul>
+        <h3>Instructions:</h3>
+        <ol>
+          <li>Cook spaghetti in salted boiling water until al dente.</li>
+          <li>While pasta cooks, fry guanciale/pancetta until crispy in a pan. Set aside.</li>
+          <li>In a bowl, whisk together eggs, Pecorino Romano, Parmigiano-Reggiano, and black pepper.</li>
+          <li>Once pasta is cooked, drain (reserve some pasta water), and transfer it to a warm serving bowl.</li>
+          <li>Quickly toss the hot pasta with the egg-cheese mixture. The residual heat will cook the eggs and melt the cheese, forming a creamy sauce. Add pasta water if needed for consistency.</li>
+          <li>Add the crispy guanciale/pancetta on top and serve immediately.</li>
+        </ol>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Contact us for feedback and questions about this recipe</p>
+    <form action="contact.php" method="post">
+      <textarea name="message" placeholder="Leave your feedback or ask a question"></textarea>
+      <button type="submit">Submit</button>
+    </form>
+  </footer>
+</body>
+
+</html>
